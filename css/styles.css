@@ -281,9 +281,6 @@ li.active a span {
 }
 .advantages-title {
   text-transform: uppercase;
-  text-align: center;
-  color: var(--white-color);
-  padding-top: 25px;
 }
 .advantages-content {
   letter-spacing: 0.03em;
@@ -295,15 +292,6 @@ li.active a span {
   width: calc((100% - 30px * 2) / 3);
   margin-right: 30px;
   margin-bottom: 30px;
-  position: relative;
-}
-.adv-card {
-  background: rgba(47, 48, 58, 0.8);
-  width: 353px;
-  height: 70px;
-  position: absolute;
-  left: 0px;
-  bottom: 0px;
 }
 .team {
   background: var(--bg-color);
