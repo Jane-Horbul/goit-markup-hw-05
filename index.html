@@ -62,11 +62,6 @@
     </header>
     <main>
         <!--Slidebar-->
-        <div class="backdrop is-hidden" data-backdrop>
-            <div class="modal" data-close-modal>
-                <button>Close</button>
-            </div>
-        </div>
         <section class="hero">
             <div class="container flexbox">
                 <div class="slidebar">
@@ -433,7 +428,15 @@
         </div>
 
     </footer>
-
+    <div class="backdrop is-hidden" data-backdrop>
+        <div class="modal" data-close-modal>
+            <button class="btn-modal">
+                <svg class="btn-close">
+                    <use href="./img/symbol-defs.svg#close-button"></use>
+                </svg>
+            </button>
+        </div>
+    </div>
     <script>
         const refs = {
             openModalBtn: document.querySelector("[data-open-modal]"),
