@@ -219,9 +219,15 @@ li.active a span {
   border-radius: 50%;
   box-sizing: border-box;
 }
+.btn-modal:focus {
+  outline: none;
+}
 .btn-close {
   width: 11px;
   height: 11px;
+}
+.btn-close:focus {
+  outline: none;
 }
 .sorter {
   display: flex;
@@ -346,6 +352,9 @@ li.active a span {
   margin-top: 110px;
   padding: 10px 25px;
 }
+.btn:focus {
+  outline: none;
+}
 .btn:hover {
   background-color: var(--assent-color);
   color: var(--white-color);
@@ -354,6 +363,9 @@ li.active a span {
 }
 .btn-group {
   display: inline-block;
+}
+.btn-group:focus {
+  outline: none;
 }
 .btn-group:hover {
   color: var(--white-color);
